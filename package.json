@@ -12,7 +12,8 @@
     "@ant-design/nextjs-registry": "^1.0.1",
     "antd": "^5.20.6",
     "next": "14.2.12",
-    "pnpm": "^9.10.0",
+    "node": "^22.9.0",
+    "pnpm": "^9.11.0",
     "react": "^18",
     "react-dom": "^18"
   },
