@@ -4,7 +4,7 @@
 const HomePage = () => {
   return (
     <> 
-    <section className="bg-white w-9/12 h-auto p-8 rounded-lg justify-center my-10 mx-auto shadow-lg">
+    <section className="bg-white w-9/12 h-auto p-8 rounded-lg justify-center my-10 mx-auto shadow-lg ">
   <div className="text-black text-2xl font-bold mb-4  ">Logo</div>
   <div className="border border-black p-4">
   <form id="form" className="space-y-6">
