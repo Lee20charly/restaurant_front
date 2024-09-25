@@ -37,9 +37,7 @@ export const Header = () => {
               <li className="font-bold leading-10 text-2xl  text-white">Blog</li>
               <li className="font-bold leading-10 text-2xl  text-white">A propos</li>
               <li className="font-bold leading-10 text-2xl  text-white">Contact</li>
-              {/* <li>
-                <a href=""></a>
-              </li> */}
+           
             </ul>
             <button className="font-bold text-base leading-9 rounded-xl bg-red-600 h-[47px] w-[158px] text-white ">
               <Link href=""></Link>Reservation
