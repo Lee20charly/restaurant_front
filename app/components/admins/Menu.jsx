@@ -54,7 +54,7 @@ const MenuManager = () => {
         ...dish,
         photo: dish.photo
           ? URL.createObjectURL(dish.photo)
-          : "/a/c66f7924-0e33-480e-a2bc-13f1856e2121",
+          : "/491be492708a0a052dc13d16e4f2a925.jpg",
       };
       setMenu((prev) => [...prev, newDish]);
     }
