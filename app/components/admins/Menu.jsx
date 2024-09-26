@@ -133,14 +133,14 @@ const MenuManager = () => {
         <div className="flex items-center space-x-4">
           <button
             type="button"
-            className="bg-red-500 text-white px-4 py-2 rounded mb-4"
+            className="bg-red-500 text-white px-2 py-2 rounded"
             onClick={() => document.getElementById("dishPhoto").click()}
           >
             {dish.photo ? "Changer la photo" : "Ajouter une photo"}
           </button>
           <button
             type="submit"
-            className="bg-yellow-500 text-white px-4 py-2 rounded"
+            className="bg-yellow-500 text-white px-2 py-2 rounded "
           >
             {isEditing ? "Modifier le plat" : "Ajouter au menu"}
           </button>
@@ -176,13 +176,13 @@ const MenuManager = () => {
                 <td className="border border-gray-300 p-2">{dish.price}</td>
                 <td className="border border-gray-300 p-2 space-x-2">
                   <button
-                    className="bg-yellow-500 text-white px-2 py-1 rounded"
+                    className="bg-yellow-500 text-white text-xs px-3 py-1 rounded"
                     onClick={() => editDish(index)}
                   >
                     Modifier
                   </button>
                   <button
-                    className="bg-red-500 text-white px-2 py-1 rounded"
+                    className="bg-red-500 text-white text-xs px-3 py-1 rounded"
                     onClick={() => removeDish(index)}
                   >
                     Supprimer

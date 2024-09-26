@@ -1,11 +1,10 @@
-
-import ParaForm from "@/app/components/admins/ParaForm";
+import MessagesDashboard from "@/app/components/admins/Message";
 import Admin_droit from "../components/Admin_droit";
 import Nav_bar from "../components/Nav_bar";
 
 
 
-const Parametre = () => {
+const message = () => {
     return (
         <div className="w-[100%] h-[100%] bg-white flex-col flex">
 
@@ -16,7 +15,7 @@ const Parametre = () => {
 
                 <Admin_droit className="justify-end" />
 
-                <ParaForm />
+                <MessagesDashboard/>
 
             </div>
 
@@ -24,5 +23,5 @@ const Parametre = () => {
     );
 };
 
-export default Parametre;
+export default message ;
 

@@ -131,7 +131,7 @@ export default function ArticleForm() {
         <button type="submit" className="bg-red-500 text-white px-4 py-2 rounded-md">
           Enregistrer
         </button>
-        <button type="button" onClick={resetForm} className="bg-yellow-500 text-black px-4 py-2 rounded-md ml-2">
+        <button type="button" onClick={resetForm} className="bg-yellow-500 text-white px-4 py-2 rounded-md ml-2">
           Annuler
         </button>
       </form>
@@ -166,13 +166,13 @@ export default function ArticleForm() {
               <td className="border-b border-gray-300 p-2">
                 <button
                   onClick={() => editArticle(index)}
-                  className="bg-yellow-500 text-black px-3 py-1 rounded-md mr-2"
+                  className="bg-yellow-500 text-white px-2 py-1 rounded-md mr-2"
                 >
                   Modifier
                 </button>
                 <button
                   onClick={() => deleteArticle(index)}
-                  className="bg-red-500 text-white px-3 py-1 rounded-md"
+                  className="bg-red-500 text-white px-2 py-1 rounded-md"
                 >
                   Supprimer
                 </button>
