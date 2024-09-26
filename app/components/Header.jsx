@@ -10,7 +10,7 @@ export const Header = () => {
         >
           <div className= {`${styles.img_pc} flex items-center text-center ml-10 mt-3`}>
             <img
-              src="/assets/logo.svg"
+              src="./assets/logo.svg"
               alt=""
               width={112}
               height={112}
@@ -20,7 +20,7 @@ export const Header = () => {
           </div>
           <section className= {` ${styles.section} flex items-center text-center ml-1 mt-3`}>
             <img
-              src="/assets/logo.svg"
+              src="./assets/logo.svg"
               alt=""
               width={45}
               height={45}
@@ -31,7 +31,7 @@ export const Header = () => {
             </p>
           </section>
           <img
-            src="/assets/menu_berger.svg"
+            src="./assets/menu_berger.svg"
             alt=""
             width={23}
             height={23}
