@@ -50,18 +50,13 @@ export function Section2() {
                 />
               </div>
               <div className={`flex flex-col items-center`}>
-                <p className={`font-bold text-base md:mt-4 max-lg:hidden  max-sm:hidden`}>
+                <p className={`font-bold text-base md:mt-4 md:hidden lg:block max-sm:hidden`}>
                   Moderne comme traditionnelle, nous nous <br></br>
                   assurons de vous offrir le meilleur pour votre <br></br>
                   estomac dans la joie et la convivialité chez <br></br>
                   nous
                 </p>
-                <p className={`font-bold text-xs max-sm:mb- max-sm:mt-2 max-sm:mb-6 md:hidden max-lg:block`}>
-                  Moderne comme traditionnelle, nous nous assurons de <br></br>
-                  vous offrir le meilleur pour votre estomac dans la joie et la
-                  <br></br> convivialité chez nous
-                </p>
-                <p className={`font-bold text-xs max-sm:mb- max-sm:mt-2 md:hidden max-sm:hidden`}>
+                <p className={`font-bold text-xs max-sm:mb- max-sm:mt-2 max-sm:mb-6 md:hidden lg:hidden`}>
                   Moderne comme traditionnelle, nous nous assurons de <br></br>
                   vous offrir le meilleur pour votre estomac dans la joie et la
                   <br></br> convivialité chez nous

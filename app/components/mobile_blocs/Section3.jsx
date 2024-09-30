@@ -5,7 +5,7 @@ export function Section3() {
   return (
     <div className={`w-full`}>
       <setion
-        className={`w-full flex flex-col md:mt-24 max-sm:mt-2 bg-[rgb(231,217,217)]`}
+        className={`w-full flex flex-col md:mt-6 max-sm:mt-2 bg-[rgb(231,217,217)]`}
       >
         <div className={`flex flex-col items-center md:mt-6  gap-4 m-auto`}>
           <div className={`flex flex-col md:gap-5 gap-2 max-sm:mt-7`}>
