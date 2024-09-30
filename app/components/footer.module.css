@@ -1,0 +1,19 @@
+@media (max-width:1000px){
+    .foote1{
+        display:block;
+    }
+    .foote2{
+        display:none;
+    }
+
+}
+
+@media (min-width:1001px){
+    .foote1{
+        display:none;
+    }
+    .foote2{
+        display:block;
+    }
+
+}

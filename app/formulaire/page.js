@@ -1,8 +1,10 @@
-export function Section4 (){
+
+
+
+export default function formulaire (){
     return(
         <div>
             
         </div>
-
     )
 }
