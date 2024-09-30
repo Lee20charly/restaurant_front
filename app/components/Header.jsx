@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import styles from "./header.module.css";
 import Link from "next/link";
@@ -37,6 +38,16 @@ export const Header = () => {
             height={23}
             className={`${styles.menu}  mr-3 mt-3`}
           />
+<<<<<<< HEAD
+          <div className="flex items-center text-center gap-[50px] mr-12 mt-3">
+            <ul className="flex gap-[50px]">
+              <li className="font-bold leading-10 text-2xl  text-white">Acceuil</li>
+              <li className="font-bold leading-10 text-2xl  text-white">Menu</li>
+              <li className="font-bold leading-10 text-2xl  text-white">Blog</li>
+              <li className="font-bold leading-10 text-2xl  text-white">A propos</li>
+              <li className="font-bold leading-10 text-2xl  text-white">Contact</li>
+           
+=======
           <div
             className={`${styles.img_pc} flex items-center text-center gap-[30px] mr-16 mt-3`}
           >
@@ -59,6 +70,7 @@ export const Header = () => {
               {/* <li>
                 <a href=""></a>
               </li> */}
+>>>>>>> 870d1ab6ecb2d2b33158ce054c1266686c4b35b1
             </ul>
             <button className="font-bold text-base leading-9 rounded-xl bg-red-600 h-[47px] w-[158px] text-white ">
               <Link href="#"></Link>Reservation
